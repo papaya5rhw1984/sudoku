@@ -1,12 +1,15 @@
 *.iml
-.gradle
-/local.properties
-/.idea
+.gradle/
+.idea/
 .DS_Store
-/build
-/captures
+build/
+/local.properties
 .externalNativeBuild
-.cxx
-local.properties
-keystore.properties
+.cxx/
+captures/
+*.apk
+*.aab
+# 서명 키스토어·비밀번호는 절대 커밋 금지
 *.jks
+*.keystore
+keystore.properties
